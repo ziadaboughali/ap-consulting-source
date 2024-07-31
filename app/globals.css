@@ -22,4 +22,16 @@
   .text-outline-hover {
     -webkit-text-stroke: 1px #3b7ad5;
   }
+  .about-info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0; /* Adjust padding as needed */
+  }
+  
+  .about-info-item span {
+    display: block;
+    max-width: 48%; /* Adjust to ensure items don't overlap */
+    word-wrap: break-word; /* Ensure long text breaks properly */
+  }
+  
 }

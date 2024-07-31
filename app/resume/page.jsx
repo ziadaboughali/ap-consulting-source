@@ -11,7 +11,7 @@ import {
   FaAws,
   FaJava,
   FaGitAlt,
-  FaLinux
+  FaLinux,
 } from "react-icons/fa";
 import {
   SiCplusplus,
@@ -27,8 +27,8 @@ import {
   SiLatex,
   SiGit,
   SiKeras,
-  SiTensorflow
-} from "react-icons/si"
+  SiTensorflow,
+} from "react-icons/si";
 import { SiTailwindcss, SiNextdotjs, SiMysql } from "react-icons/si";
 import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -79,7 +79,7 @@ const resumes = [
         { icon: <SiCplusplus />, name: "C++" },
         { icon: <FaHtml5 />, name: "HTML 5" },
         { icon: <FaCss3 />, name: "CSS 3" },
-        { icon: <SiC/>, name: "C" },
+        { icon: <SiC />, name: "C" },
         { icon: <SiGnubash />, name: "Bash" },
         { icon: <FaLinux />, name: "Linux" },
         { icon: <FaJs />, name: "JavaScript" },
@@ -98,8 +98,6 @@ const resumes = [
         { icon: <FaFileExcel />, name: "Excel" },
         { icon: <SiTableau />, name: "Tableau" },
         { icon: <SiPowerbi />, name: "PowerBI" },
-
-
       ],
     },
   },
@@ -151,10 +149,10 @@ const resumes = [
         { icon: <SiNextdotjs />, name: "Next.js" },
         { icon: <FaAws />, name: "AWS" },
         { icon: <SiSap />, name: "SAP" },
-        {icon: <SiTableau />, name: "Tableau"},
-        {icon: <SiPowerbi />, name: "PowerBI"},
+        { icon: <SiTableau />, name: "Tableau" },
+        { icon: <SiPowerbi />, name: "PowerBI" },
         { icon: <SiGit />, name: "Git" },
-        { icon: <SiAndroidstudio/>, name: "Android Studio" },
+        { icon: <SiAndroidstudio />, name: "Android Studio" },
         { icon: <SiJupyter />, name: "Jupyter Lab" },
         { icon: <SiPandas />, name: "Pandas" },
         { icon: <SiTailwindcss />, name: "Tailwind CSS" },
@@ -163,7 +161,6 @@ const resumes = [
         { icon: <SiMysql />, name: "MySQL" },
         { icon: <FaFileExcel />, name: "Excel" },
         { icon: <SiLatex />, name: "LaTeX" },
-
       ],
     },
   },
@@ -318,10 +315,10 @@ const Resume = () => {
                     return (
                       <li
                         key={index}
-                        className="flex items-center justify-center xl:justify-start gap-4"
+                        className="flex flex-col xl:flex-row items-start xl:items-center justify-between gap-4"
                       >
                         <span className="text-white/60">{item.fieldName}</span>
-                        <span className="text-xl">{item.fieldValue}</span>
+                        <span className="text-xl break-words">{item.fieldValue}</span>
                       </li>
                     );
                   })}
