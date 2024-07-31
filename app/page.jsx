@@ -45,7 +45,7 @@ const Home = () => {
                       }}
                     />
                   </div>
-                  <Link href="/Ziad_Abou-Ghali_Resume.pdf" target="_blank" download>
+                  <Link href="/assets/Ziad_Abou-Ghali_Resume.pdf" target="_blank" download>
                     <Button 
                       variant="outline" 
                       size="lg" 
@@ -70,7 +70,7 @@ const Home = () => {
                       }}
                     />
                   </div>
-                  <Link href="/Ayush_Patel_Resume.pdf" target="_blank" download>
+                  <Link href="/assets/Ayush_Patel_Resume.pdf" target="_blank" download>
                     <Button 
                       variant="outline" 
                       size="lg" 
