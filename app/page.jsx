@@ -50,7 +50,7 @@ const Home = () => {
                       variant="outline" 
                       size="lg" 
                       className="uppercase flex items-center gap-2 mt-4 bg-blue-500 text-white hover:bg-blue-700"
-                      onClick={() => openPdfAndDownload('/Ziad_Abou-Ghali_Resume.pdf')}
+                      onClick={() => openPdfAndDownload('/assets/Ziad_Abou-Ghali_Resume.pdf')}
                     >
                       <span>Download Ziad's CV</span>
                       <FiDownload className="text-lg" />
@@ -75,7 +75,7 @@ const Home = () => {
                       variant="outline" 
                       size="lg" 
                       className="uppercase flex items-center gap-2 mt-4 bg-green-500 text-white hover:bg-green-700"
-                      onClick={() => openPdfAndDownload('/Ayush_Patel_Resume.pdf')}
+                      onClick={() => openPdfAndDownload('/assets/Ayush_Patel_Resume.pdf')}
                     >
                       <span>Download Ayush's CV</span>
                       <FiDownload className="text-lg" />
