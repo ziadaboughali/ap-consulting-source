@@ -20,8 +20,8 @@ const ziadProjects = [
       { icon: <SiVisualstudiocode/>, name: "VSCode" },
     ],
     image: "/assets/APWebsiteImage.png",
-    live: "#",
-    github: "#",
+    live: "https://ap-consulting-group.com/",
+    github: "https://github.com/ziadaboughali/ap-consulting-source",
   },
   {
     num: "02",
