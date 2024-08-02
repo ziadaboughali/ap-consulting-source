@@ -25,17 +25,16 @@ const ziadProjects = [
   },
   {
     num: "02",
-    category: "fullstack",
-    title: "Fullstack Project",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
+    category: "2048 Multiplayer Game",
+    title: "2048 Multiplayer Game",
+    description: "A fast paced, multiplayer version of the well known game 2048",
     stack: [
-      { icon: <SiNextdotjs />, name: "Next.js" },
-      { icon: <SiTailwindcss />, name: "Tailwind.css" },
+      { icon: <FaReact />, name: "React" },
       { icon: <FaNodeJs />, name: "Node.js" },
     ],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/2048GameImage.png",
     live: "#",
-    github: "#",
+    github: "https://github.com/ziadaboughali/2048Multiplayer",
   },
 ];
 
