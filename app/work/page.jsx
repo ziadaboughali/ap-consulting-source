@@ -12,14 +12,14 @@ import { SiTailwindcss, SiNextdotjs, SiMongodb, SiExpress, SiMysql, SiVisualstud
 const ziadProjects = [
   {
     num: "01",
-    category: "A* Algorithm Simulation",
-    title: "A* Algorithm Simulation",
-    description: "An interactive simulation of the A* algorithm, demonstrating its pathfinding capabilities through a visual grid. Users can set start and end points, obstacles, and watch the algorithm find the optimal path.",
+    category: "A&P Consulting Portfolio",
+    title: "A&P Consulting Portfolio",
+    description: "Explore my portfolio website, showcasing diverse projects and expertise in front-end and back-end development, using technologies such as Next.js, HTML5, CSS3, and more.",
     stack: [
-      { icon: <FaPython />, name: "Python" },
+      { icon: <FaReact />, name: "React" },
       { icon: <SiVisualstudiocode/>, name: "VSCode" },
     ],
-    image: "/assets/A*Preview.png",
+    image: "/assets/APWebsiteImage.png",
     live: "#",
     github: "#",
   },
